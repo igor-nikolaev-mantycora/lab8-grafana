@@ -8,13 +8,13 @@ variable "region" {
 variable "ssh_key_public" {
   type    = string
   #Replace this with the location of you public key .pub
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa.pub"
+  default = "/Users/mantycora/.ssh/yorkulabs.pub"
 }
 
 variable "ssh_key_private" {
   type    = string
   #Replace this with the location of you private key
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa"
+  default = "/Users/mantycora/.ssh/yorkulabs"
 }
 
 variable "public_subnet_one" {}
